@@ -1,1 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T12:36:11.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" version="20.8.23" etag="mIXt1-lH3jCwV91u7OGr" type="github"><diagram name="Página-1" id="xCwbDfX45_LNh0Hy81Zi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-28T13:41:06.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" etag="OecD7kA3wBOnv4oWS0Bt" version="20.8.23" type="github">
+  <diagram name="Página-1" id="xCwbDfX45_LNh0Hy81Zi">
+    <mxGraphModel dx="1443" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lWooiEJSJ554hRTcs6l--1" value="Atraso de Contribuição do Ente (Município)" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="20" width="810" height="340.75" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--2" value="Fapes" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="lWooiEJSJ554hRTcs6l--1">
+          <mxGeometry x="20" width="790" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lWooiEJSJ554hRTcs6l--2" source="lWooiEJSJ554hRTcs6l--5" target="lWooiEJSJ554hRTcs6l--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--5" value="Início" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lWooiEJSJ554hRTcs6l--2">
+          <mxGeometry x="30" y="35" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lWooiEJSJ554hRTcs6l--2" source="lWooiEJSJ554hRTcs6l--6" target="lWooiEJSJ554hRTcs6l--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--6" value="Houve atraso?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lWooiEJSJ554hRTcs6l--2">
+          <mxGeometry x="160" y="37.5" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lWooiEJSJ554hRTcs6l--2" source="lWooiEJSJ554hRTcs6l--8" target="lWooiEJSJ554hRTcs6l--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--8" value="Oficiar Ente e Conselhos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lWooiEJSJ554hRTcs6l--2">
+          <mxGeometry x="310" y="31.25" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lWooiEJSJ554hRTcs6l--2" source="lWooiEJSJ554hRTcs6l--11" target="lWooiEJSJ554hRTcs6l--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--11" value="Houve Pagamento?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lWooiEJSJ554hRTcs6l--2">
+          <mxGeometry x="470" y="31.25" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--13" value="Finaliza Processo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lWooiEJSJ554hRTcs6l--2">
+          <mxGeometry x="640" y="31.25" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lWooiEJSJ554hRTcs6l--2" source="lWooiEJSJ554hRTcs6l--16" target="lWooiEJSJ554hRTcs6l--24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lWooiEJSJ554hRTcs6l--2" source="lWooiEJSJ554hRTcs6l--16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="149" />
+              <mxPoint x="610" y="10" />
+              <mxPoint x="530" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--16" value="Mais de um mês de atraso" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lWooiEJSJ554hRTcs6l--2">
+          <mxGeometry x="470" y="120" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lWooiEJSJ554hRTcs6l--2" source="lWooiEJSJ554hRTcs6l--11" target="lWooiEJSJ554hRTcs6l--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--24" value="Não pagou, &lt;br&gt;vida que segue" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lWooiEJSJ554hRTcs6l--2">
+          <mxGeometry x="270" y="120" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--3" value="TCE e MP" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="lWooiEJSJ554hRTcs6l--1">
+          <mxGeometry x="20" y="200" width="790" height="140.75" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--19" value="Notificar TCE e MP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lWooiEJSJ554hRTcs6l--3">
+          <mxGeometry x="470" y="32.5" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lWooiEJSJ554hRTcs6l--20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lWooiEJSJ554hRTcs6l--1" source="lWooiEJSJ554hRTcs6l--16" target="lWooiEJSJ554hRTcs6l--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
